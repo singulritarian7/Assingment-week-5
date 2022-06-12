@@ -223,4 +223,9 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
 if __name__ == '__main__':
     app.run_server()
  
+#  If we want to run in Juyter notebook (Anaconda):
+#  Adding dev_tools_ui=False, dev_tools_props_check=False can prevent error appearing before calling callback function
+#  app.run_server(mode="inline", host="localhost", debug=False, dev_tools_ui=False, dev_tools_props_check=False)
+ 
     
+
